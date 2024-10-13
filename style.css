@@ -1,0 +1,314 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    padding: 0.5rem;
+    height: 30px;
+}
+.navbar{
+    display: flex;
+}
+.navbar img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.input{
+    display: flex;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    
+    margin-left: 21rem;
+}
+
+
+.input input{
+    margin-left: -0.5rem;
+    width: 450px;
+    height: 50px;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    padding-left: 3rem;
+    font-size: 1.1rem;
+    background-color:  rgb(48, 46, 46);
+}
+.input input::placeholder{
+    color:  rgb(210, 204, 204);
+}
+
+#btn{
+    width: 100px;
+    height: 50px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(133, 131, 131);
+    font-weight: bolder;
+    
+   
+}
+
+#btn1{
+    width: 100px;
+    height: 50px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    background: white;
+    font-weight: bolder;
+     border-radius: 2rem;
+     
+}
+.btn-move{
+    margin-left:22rem;
+}
+
+.home-conatiner{
+   margin-top: 1.1rem ;
+   display: flex;
+}
+.card-1{
+    margin-left: 0.5rem;
+    width: 290px;
+    height: 430px;
+    background-color: rgb(21, 20, 20);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#sp1{
+    font-size: 1.3rem;
+    color: rgb(133, 131, 131);
+    margin-left: 0.7rem;
+}
+#sp2{
+    font-size: 1.7rem;
+    color: rgb(133, 131, 131);
+    margin-left: 6rem;
+}
+
+.card-2{
+    margin-top: 3rem;
+    width: 250px;
+    height: 115px;
+    background-color: rgb(33, 32, 32);
+    border-radius: 0.5rem ;
+    margin-left: 3.5px;
+    padding: 1rem;
+}
+#para{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+#para2{
+ font-size: 0.9rem;
+}
+#btn2{
+    margin-top: 0.3rem;
+ width: 130px;
+ height: 32px;
+ border-radius: 2rem;
+ font-size: 0.9rem;
+ border: none;
+ outline: none;
+ font-weight: bold;
+}
+
+.legal-list{
+    margin-left: 3.5px;
+    margin-top: 2rem;
+}
+#legal{
+    font-size: 0.8rem;
+    color: rgb(133, 131, 131);
+}
+#safe{
+    margin-left: 2rem;
+}
+#cook{
+    margin-left: 1rem;
+}
+#pri{
+    font-size: 0.8rem;
+    color: rgb(133, 131, 131);
+}
+#abu{
+    margin-left: 1rem;
+    color: rgb(133, 131, 131);
+    font-size: 0.8rem;
+}
+#acc{
+    color: rgb(133, 131, 131);
+    font-size: 0.8rem;
+}
+#cookies{
+    font-size: 0.8rem;
+    color: rgb(133, 131, 131);
+}
+.legal-list button{
+    margin-top: 1rem;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 1rem;
+    font-size:1rem ;
+    border: 1px solid white;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    
+    
+}
+
+
+.second-card{
+    margin-left: 0.5rem;
+    width: 73%;
+    height: 1000px;
+    padding: 1rem;
+    background-color: rgb(21, 20, 20);
+    border-radius: 0.5rem;
+ 
+
+    
+}
+#span1{
+    font-size: 1.5rem;
+     font-weight: bolder;
+    
+}
+
+
+#span2{
+    font-size: 0.9rem;
+    color: rgb(133, 131, 131);
+    float: right;
+    font-weight: bolder;
+    margin-right: 1rem;
+   
+}
+
+.names{
+    margin-top: 1rem;
+    display: flex;
+}
+.music-player{
+    width: 180px;
+    height: 180px;
+}
+.music-player img{
+    width: 170px;
+    height: 170px;
+    justify-content: space-between;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#para{
+    font-size: 1.1rem;
+    font-weight: bold;
+   
+}
+
+
+#para1{
+    font-size: 1rem;
+    color: rgb(133, 131, 131);
+    
+}
+
+
+.another-music{
+    margin-top: 20rem;
+    margin-left: -1070px;
+}
+
+.film-2{
+    display: flex;
+}
+.player-card{
+    width: 180px;
+    height: 200px;
+    margin-top: 1rem;
+
+}
+.player-card img{
+    width: 170px;
+    height: 170px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+#para2{
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+}
+
+#para3{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: rgb(133, 131, 131);
+   
+}
+
+.side{
+    margin-left: 0.2rem;
+}
+.another-musics{
+    margin-top: 5rem;
+}
+
+.company{
+    margin-top: 4rem;
+    display: flex;
+}
+#end1{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.music1{
+    margin-left: 0.5rem;
+    
+}
+#end2{
+    font-size: 1rem;
+    color: rgb(177, 175, 175);
+   
+}
+
+.left{
+    margin-left:2em;
+}
+.width{
+    margin-left: 3rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+   
+}
+.width i{
+    color: rgb(167, 165, 165);
+    font-size: 1.1rem;
+}
+
+hr{
+    margin-top: 3rem;
+    width: 100%;
+    color:  rgb(105, 104, 104) ;
+}
+h3{
+color:  rgb(161, 161, 161);
+
+}
